@@ -44,6 +44,8 @@ button, select, input { font: inherit; color: inherit; }
 .meters { display: flex; gap: 14px; font-family: var(--f-label); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-variant-numeric: tabular-nums; }
 .meters i { font-style: normal; color: var(--ink); }
 .meters .credit { color: var(--muted); text-decoration: none; }
+.meters { align-items: center; }
+.meters .lang { padding: 3px 8px; font-family: var(--f-label); font-size: 11px; letter-spacing: .08em; min-width: 34px; }
 .meters .credit:hover i { color: var(--accent); }
 
 .deck {
@@ -146,8 +148,8 @@ body.busy .rack { opacity: .6; pointer-events: none; }
 </style>
 
 <header class="top">
-  <div class="brand"><b>ASCII Sharks</b><span>Wallpaper studio</span><span class="model">AS-02</span></div>
-  <div class="meters"><span>Engine <i id="backend">…</i></span><span>Preview <i id="fps">– fps</i></span><span>Output <i id="res">–</i></span><a class="credit" href="https://github.com/stackedlol/ascii-sharks" target="_blank" rel="noopener noreferrer">after <i>stackedlol</i></a></div>
+  <div class="brand"><b>ASCII Sharks</b><span>Wallpaper studio</span><span class="model">AS-03</span></div>
+  <div class="meters"><span>Engine <i id="backend">…</i></span><span>Preview <i id="fps">– fps</i></span><span>Output <i id="res">–</i></span><a class="credit" href="https://github.com/stackedlol/ascii-sharks" target="_blank" rel="noopener noreferrer">after <i>stackedlol</i></a><button type="button" class="key lang" id="lang">RU</button></div>
 </header>
 
 <main class="deck">
@@ -185,5 +187,6 @@ body.busy .rack { opacity: .6; pointer-events: none; }
   </aside>
 </main>
 <script src="app.js"></script>
+<script src="i18n.js"></script>
 
 </body></html>
