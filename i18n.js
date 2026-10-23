@@ -94,7 +94,7 @@
     "Tiger, zebra & nurse": "Тигровые, зебровые и няньки",
     "Lone giant": "Одиночный гигант",
     "Original (4 classic)": "Оригинал (4 классические)",
-    "Custom mix": "Свой состав",
+    "Custom mix": "Выбрать самому",
     "Number of sharks": "Число акул",
     "Giant species": "Вид гиганта",
     "Great white": "Белая акула",
@@ -134,7 +134,7 @@
     // experiments
     "Terminal": "Терминал",
     "Vaporwave": "Вейпорвейв",
-    "Sonar room": "Рубка сонара",
+    "Sonar room": "Эффект сонара",
     "Deep sea": "Глубина",
     "CRT": "ЭЛТ",
     "Glyph set": "Набор символов",
